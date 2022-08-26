@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+header h1{
+    color: rgb(58, 58, 195);
+}
+div{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+button{
+    background-color: rgb(2, 248, 2);
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
